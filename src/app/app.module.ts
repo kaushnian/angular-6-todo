@@ -4,7 +4,7 @@ import { MatButtonModule } from '@angular/material';
 import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
-import { ItemModule } from './item/item.module';
+import { ItemListModule } from './item-list/item-list.module';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 @NgModule({
@@ -15,7 +15,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     BrowserAnimationsModule,
     BrowserModule,
     FlexLayoutModule,
-    ItemModule,
+    ItemListModule,
     MatButtonModule,
   ],
   providers: [],
