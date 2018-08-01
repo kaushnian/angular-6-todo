@@ -1,6 +1,6 @@
 import { Item } from '../item/item';
 
-export const Items: Item[] = [
+export const mockItems: Item[] = [
   {
     id: 0,
     text: 'Todo 0',

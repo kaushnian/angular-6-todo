@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
 import { Item } from '../item/item';
-import { Items } from './mock-items';
+import { mockItems } from './mock-items';
 
 @Component({
   selector: 'todo-item-list',
@@ -10,7 +10,7 @@ import { Items } from './mock-items';
 })
 export class ItemListComponent implements OnInit {
 
-  items: Item[] = Items;
+  items: Item[] = mockItems;
 
   constructor() { }
 

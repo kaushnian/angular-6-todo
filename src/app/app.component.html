@@ -1,8 +1,8 @@
 <h1>TODO list</h1>
 
 <div fxLayout="row" fxLayoutGap="16px">
-  <button mat-button>Dashboard</button>
-  <button mat-button>Todo list</button>
+  <button mat-raised-button routerLink="/">Dashboard</button>
+  <button mat-raised-button routerLink="/items">Todo list</button>
 </div>
 
-<todo-item-list></todo-item-list>
+<router-outlet></router-outlet>
