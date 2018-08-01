@@ -1,5 +1,9 @@
-<ul>
-  <li *ngFor="let item of items">
-    <div>{{ item.text }}</div>
-  </li>
-</ul>
+<mat-selection-list #itemsList>
+  <mat-list-option *ngFor="let item of items">
+    {{item.text}}
+  </mat-list-option>
+</mat-selection-list>
+
+<p>
+  Options selected: {{itemsList.selectedOptions.selected.length}}
+</p>
