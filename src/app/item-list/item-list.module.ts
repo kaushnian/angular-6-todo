@@ -6,6 +6,7 @@ import { ItemListComponent } from './item-list.component';
   imports: [
     CommonModule
   ],
-  declarations: [ItemListComponent]
+  declarations: [ItemListComponent],
+  exports: [ItemListComponent],
 })
 export class ItemListModule { }
