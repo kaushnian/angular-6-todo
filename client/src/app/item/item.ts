@@ -1,6 +1,6 @@
 export interface Item {
   id: number;
-  text: string;
-  done: boolean;
-  starred: boolean;
+  content: string;
+  isDone: boolean;
+  isStarred: boolean;
 }
